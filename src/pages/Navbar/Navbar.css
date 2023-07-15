@@ -1,0 +1,211 @@
+* {
+  text-decoration: none !important;
+  list-style: none !important;
+  margin: 0;
+  padding: 0;
+}
+.container {
+  width: 100%;
+  position: relative;
+}
+
+.con{
+ position: relative;
+ right: 40px;
+}
+
+.d-dflex{
+ display: flex;
+ flex-direction:column ;
+}
+.main-nav {
+  width: 100%;
+  padding-bottom: 10px;
+  padding-top: 10px;
+  border-bottom: 1px solid rgb(156, 155, 155);
+}
+
+.nav {
+  justify-content: space-between;
+}
+
+.nav .navIcon {
+  display: flex;
+  gap: 30px;
+  font-size: 20px;
+  color: #ecaa11;
+  cursor: pointer;
+}
+
+.nav select {
+  /* border: 1px solid #d6b976; */
+  margin-right: 10px;
+  /* color: #; */
+  outline: none;
+}
+
+.nav .navselect {
+  display: flex;
+}
+
+.nav .navSelect option {
+  font-size: 18px;
+}
+
+.Navbar .Logo {
+  width: 20%;
+  height: inherit;
+  padding-bottom: 20px;
+}
+
+.Navbar .Search {
+  width: 60%;
+  padding-bottom: 70px;
+  display: flex;
+  justify-content: center;
+  padding-top: 20px;
+  padding-left: 50px;
+}
+
+.Account {
+  width: 25%;
+  padding-left: 40px;
+  padding-top: 10px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.Navbar {
+  margin-top: 40px;
+}
+.Navbar .Logo h2 {
+  font-size: 35px;
+  font-weight: bold;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: #ecaa11;
+}
+
+.Navbar .Logo span {
+  color: black !important;
+}
+
+.Navbar .Logo p {
+  font-size: 10px;
+  color: gray ;
+  font-weight: bold;
+  white-space: nowrap;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.Navbar .Search input {
+  width: 80%;
+  padding: 7px;
+  border-radius: 10px 0px 0px 10px;
+  border: 1px solid gray;
+  outline: none;
+  padding-left: 20px;
+}
+
+.Navbar .Search button {
+  width: 20%;
+  border: none;
+  background-color: #ecaa11;
+  padding: 5px;
+  border-radius: 0px 10px 10px 0px;
+  color: white;
+  font-size: 16px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.Account .User{
+  display: flex;
+  cursor: pointer;
+  color: black;
+}
+
+.UserIcon{
+  padding-right: 10px;
+  font-size: 28px;
+}
+
+.Account .d-dflex span{
+   font-size: 13px;
+   white-space: nowrap;
+   color: gray;
+   font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+}
+
+
+.Account .d-dflex p{
+  font-size: 12px;
+  font-weight: bold;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+}
+
+
+.Account .CartSystem{
+  display: flex;
+  margin-left: 30px;  
+  cursor: pointer;
+}
+
+.Account .cartInfo{
+  display: flex;
+  flex-direction: column;
+  white-space: nowrap;
+}
+
+.Account .cartInfo p{
+  margin-bottom: -3px;
+ font-weight: bold;
+ font-family: Verdana, Geneva, Tahoma, sans-serif;
+ font-size: 14px;
+ color: black !important;
+}
+
+.Account .cartInfo span{
+  color: #ecaa11;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 14px;
+}
+.Account .cartIcon{
+  font-size: 25px;
+  margin-right: 10px;
+}
+
+.NavLink{
+  background-color: black;
+  width: 100%;
+  padding: 5px;
+  height: inherit;
+  text-align: center;
+  padding-top: 20px;
+}
+
+.NavLink .container{
+  display: flex;
+  justify-content: space-between;
+}
+.NavLink ul{
+ display: flex;
+ gap: 30px;
+}
+
+.NavLink ul li a{
+  color: white;
+  text-transform: uppercase;
+}
+
+.NavLink ul li{
+  color: white;
+  text-transform: uppercase;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 13px;
+  font-weight: bold;
+}
+
+.NavLink ul .active{
+  color: #ecaa11;
+}

@@ -1,0 +1,198 @@
+.Cart-Section{
+  background-color: #DDDEE3;
+  height: 100vh;
+  width: 100%;
+  padding-top: 50px;
+  position: relative;
+}
+
+.Main-Cart{
+  background-color: white;
+  width: 65%;
+  height: 85vh;
+  box-shadow: 2px 2px 2px 2px rgb(194, 191, 191);
+  overflow: scroll;
+  white-space: nowrap;
+}
+
+.Main-Cart .Nav-header{
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+  border-bottom: 1px solid gray;
+  position: sticky;
+  top: 0;
+  background-color: white;
+  z-index: 111;
+}
+
+.Main-Cart .Nav-header h1{
+  font-size: 25px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-weight: bold;
+}
+
+.Main-Cart .Nav-header h3{
+  font-size: 25px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.Main-Cart .item{
+  display: flex;
+  justify-content: space-between;
+  gap: 10px;
+  border-bottom: 1px solid gray;
+}
+
+
+.Main-Cart .item div{
+  height: auto;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-bottom: 20px;
+}
+
+.Main-Cart .item .ItemImg{
+  width: 30%;
+}
+.Main-Cart .item .ItemImg img{
+  width: 30%;
+  position: relative;
+  top: 10px;
+}
+
+.Main-Cart .item .ItemDescription{
+  white-space: nowrap;
+  overflow: hidden;
+  width: 50%;
+  text-overflow:ellipsis;
+}
+.Main-Cart .item .ItemDescription h3{
+  font-size: 18px;
+  position: relative;
+  top: 30px;
+}
+
+.Main-Cart .item .ItemPrice{
+  width:10% ;
+}
+
+.Main-Cart .item .ItemPrice p{
+  position: relative;
+  top: 30px;
+}
+
+.Main-Cart .item .ItemRemove .icon{
+  position: relative;
+  top: 30px;
+}
+
+
+
+.Checkout-Cart{
+  width: 35%;
+  background-color: orange;
+  height: inherit;
+}
+
+.Checkout-Nav{
+  width: 100%;
+  border-bottom: 1px solid gray;
+  padding: 15px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.Checkout-Nav h2{
+  font-size: 25px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.Checkout-Nav p{
+  font-size: 20px;
+  font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-weight: bold;
+}
+
+.Checkout-Nav span{
+  color: rgb(214, 28, 28);
+}
+
+.Checkout-Input{
+  display: flex;
+  flex-direction:column ;
+  padding: 20px;
+}
+
+.Checkout-Input input{
+  width: 100%;
+  padding: 7px;
+  border: none;
+  outline: none;
+  background-color: white;
+}
+
+.Checkout-Input label{
+  font-weight: bold;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 18px;
+  margin-bottom: 20px;
+}
+
+.Checkout-Input button{
+  width: 30%;
+  background-color: rgb(212, 27, 27);
+  color: white;
+  padding: 5px;
+  margin-top: 20px;
+  border: none;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 19px;
+}
+.Checkout-button{
+  padding: 20px;
+}
+.Checkout-button nav{
+  display: flex;
+  justify-content: space-between;
+}
+
+.Checkout-button nav p{
+  font-size: 20px;
+  font-weight: bold;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.Checkout-button nav span{
+  font-size: 20px;
+  font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.Checkout-button button{
+  width: 80%;
+  padding: 10px;
+  color: white;
+  border: none;
+  background-color: blue;
+  outline: none;
+  margin-top: 50px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 18px;
+}
+
+.Main-recipt{
+  width: 100%;
+  background-color: black;
+  height: 100vh;
+  position: absolute;
+}
+.recipt{
+  width: 40% !important;
+  height: 90vh;
+  background-color: blue;
+  position: absolute;
+  /* top: 0px; */
+  bottom: 150px;
+  left: 300px;
+  z-index: 999;
+}

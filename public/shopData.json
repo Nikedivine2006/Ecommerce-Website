@@ -1,0 +1,221 @@
+ [
+    {
+    "id": 1,
+    "productName": "Oppo A57 utra blue colore",
+    "image": "./productImage/a.jpg",
+    "productPrice": 200,
+    "Catergories": "Phones"
+    
+  },
+
+  {
+    "id": 2,
+    "productName": "Multi color Shock",
+    "image": "./productImage/8.jpg",
+    "productPrice": 80,
+     "Catergories": "Shock"
+  },
+
+  {
+    "id": 3,
+    "productName": "Gold Italina watch crust",
+    "image": "./productImage/row6.webp",
+    "productPrice": 50,
+     "Catergories": "Watch"
+  },
+
+  {
+    "id": 4,
+    "productName": "Hd gaming headPhone Red color",
+    "image": "./productImage/gaming.webp",
+    "productPrice": 280,
+     "Catergories": "HeadPhones"
+  },
+
+  {
+    "id": 5,
+    "productName": "Crystal Gussi Shoe orginal",
+    "image": "./productImage/row2.webp",
+    "productPrice": 150,
+     "Catergories": "Shoes"
+  },
+  
+  {
+    "id": 6,
+    "productName": "A White doir hoodie skinny",
+    "image": "./productImage/row2.8.jpg",
+    "productPrice": 30,
+     "Catergories": "Cloths"
+  },
+
+  {
+    "id": 7,
+    "productName": "New Metal Visual gaming set vs 8.3.1",
+    "image": "./productImage/vr.jpg",
+    "productPrice": 150,
+     "Catergories": "gaming"
+  },
+
+  {
+    "id": 8,
+    "productName": "wire-Mouse programmable mouse ",
+    "image": "./productImage/mouse.webp",
+    "productPrice": 300,
+     "Catergories": "mouse"
+  },
+
+  {
+    "id": 9,
+    "productName": "play station Fifa 2023",
+    "image": "./productImage/fifa 2023.webp",
+    "productPrice": 150,
+     "Catergories": "Gaming"
+  },
+
+  {
+    "id": 10,
+    "productName": "Ginee Y6 Black color",
+    "image": "./productImage/b.jpg",
+    "productPrice": 130,
+     "Catergories": "Phones"
+  },
+
+  {
+    "id": 11,
+    "productName": "Ipod pro version",
+    "image": "./productImage/row10.webp",
+    "productPrice": 60,
+     "Catergories": "Ipod"
+  },
+
+  {
+    "id": 12,
+    "productName": "Ginee Y6 Black color",
+    "image": "./productImage/b.jpg",
+    "productPrice": 130,
+     "Catergories": "Phones"
+  },
+
+  {
+    "id": 13,
+    "productName": " 4k Drone max with 104 megal pixel camare",
+    "image": "./productImage/row8.webp",
+    "productPrice": 600,
+     "Catergories": "Drones"
+  },
+
+  
+  {
+    "id": 14,
+    "productName": " Casual Beach clothing 4 pieces",
+    "image": "./productImage/row2.5.jpg",
+    "productPrice": 40,
+     "Catergories": "Cloths"
+  },
+
+   
+  {
+    "id": 15,
+    "productName": "A Leather Black Gaming Chair",
+    "image": "./productImage/chair.webp",
+    "productPrice": 80,
+     "Catergories": "Gaming"
+  },
+
+   
+  {
+    "id": 16,
+    "productName": " Casual Beach clothing 4 pieces",
+    "image": "./productImage/watch2.webp",
+    "productPrice": 4000,
+     "Catergories": "Watch"
+  },
+
+   
+  {
+    "id": 17,
+    "productName": "Nice Crytain Leather white Shoe",
+    "image": "./productImage/shoes.jpg",
+    "productPrice": 40,
+     "Catergories": "Shoes"
+  },
+
+   
+  {
+    "id": 18,
+    "productName": "64 bit Hp laptop with free usb",
+    "image": "./productImage/computer.webp",
+    "productPrice": 800,
+     "Catergories": "Laptop"
+  },
+
+   
+  {
+    "id": 19,
+    "productName": "Iphon 11 pro 16gb ram 264gb storage",
+    "image": "./productImage/iphone.jpg",
+    "productPrice": 1000,
+     "Catergories": "Phones"
+  },
+
+   
+  {
+    "id": 20,
+    "productName": "Rolex Watch for men",
+    "image": "./productImage/Watch1.jpg",
+    "productPrice": 3000,
+     "Catergories": "Watch"
+  },
+
+   
+  {
+    "id": 21,
+    "productName": "Iphone 12 8gb ram 128gb storage with a 108 megal pixel cameral",
+    "image": "./productImage/iphone1.webp",
+    "productPrice": 500,
+     "Catergories": "Phones"
+  },
+
+   
+  {
+    "id": 22,
+    "productName": "Samsung s22 utra phone Crystal Case",
+    "image": "./productImage/phone-case.webp",
+    "productPrice": 40,
+     "Catergories": "Cloths"
+  },
+
+   
+  {
+    "id": 23,
+    "productName": "New Macbook pro 16gb ram 350 gb storage",
+    "image": "./productImage/Macbook.webp",
+    "productPrice": 5000,
+     "Catergories": "Laptop"
+  },
+
+   
+  {
+    "id": 24,
+    "productName": "Gucci hoddie Black Clothing",
+    "image": "./productImage/gussi.jfif",
+    "productPrice": 70,
+     "Catergories": "Cloths"
+  },
+
+   
+  {
+    "id": 25,
+    "productName": "Gucci Camel Black Gold Shoes",
+    "image": "./productImage/gucci-3.jpg",
+    "productPrice": 160,
+     "Catergories": "Shoes"
+  }
+
+
+
+  
+
+ ]
+
+

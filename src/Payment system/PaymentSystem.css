@@ -1,0 +1,151 @@
+.Main-History {
+  width: 100%;
+  height: 200vh;
+  background-color: #dddee3;
+  padding-top: 30px;
+}
+
+.Main-History .Col {
+  display: flex;
+  gap: 20px;
+}
+.Main-History .Col div {
+  background-color: white;
+  padding: 20px;
+  width: 30%;
+  border-radius: 10px;
+  width: 33%;
+}
+
+.Main-History .Col div h2 {
+  font-size: 25px;
+  font-family: "Times New Roman", Times, serif;
+}
+
+.Main-History .Col div span {
+  color: gray;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.History {
+  background-color: white;
+  width: 100%;
+  padding-bottom: 20px;
+  height: auto;
+  margin-top: 30px;
+  border-radius: 10px;
+  padding-top: 20px;
+  padding-bottom: 30px;
+}
+
+.History nav h3 {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-weight: bold;
+  padding-bottom: 20px;
+  border-bottom: 1px solid gray;
+  margin-bottom: 30px;
+}
+
+.ProductOverview {
+  height: auto;
+  display: flex;
+  justify-content: space-between;
+}
+
+.Overview-Form {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  width: 70%;
+}
+
+.ProductOverview div {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+
+.ProductOverview div input {
+  border: none;
+  border-bottom: 1px solid gray;
+  outline: none;
+  width: 50%;
+}
+
+.ProductOverview div label {
+  color: gray;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.ProductOverview .d-flex input {
+  width: 150%;
+}
+
+.ProductOverview .d-flex {
+  display: flex;
+  flex-direction: row;
+  gap: 150px;
+  /* background-color: red; */
+  width: 50%;
+}
+
+.ProductOverview button {
+  width: 30%;
+  border: none;
+  border-radius: 10px;
+  padding: 10px;
+  color: white;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-weight: bold;
+  background-color: orange;
+  margin-top: 40px;
+}
+
+.Cart_Information {
+  background-color: #dddee3;
+  width: 30%;
+  height: auto;
+  padding: 20px;
+  overflow: scroll;
+}
+
+.Cart_Information nav h3 {
+  font-size: 25px;
+}
+.Cart_product {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row !important;
+  position: relative;
+  bottom: 30px;
+  border-bottom: 1px solid gray;
+  padding-bottom: 10px;
+}
+.Cart_product .img {
+  width: 15%;
+  display: flex;
+  flex-direction: row;
+}
+
+.Cart_product .img img {
+  width: 100%;
+}
+
+.Cart_product .img span {
+  font-weight: bold;
+  font-family: "Times New Roman", Times, serif;
+  font-size: 20px;
+  position: relative;
+  top: 10px;
+  padding-right: 150px;
+}
+
+.Cart_product .img p {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 10px;
+  position: relative;
+  top: 10px;
+  white-space: nowrap;
+  position: relative;
+  top: 30px;
+}

@@ -1,0 +1,233 @@
+.Contact-Banner{
+    width: 100%;
+    height: inherit;
+    display: flex;
+    margin-top: 20px;
+}
+
+.Contact-Banner .banner-1{
+    padding: 100px;
+    background-color: black;
+    width: 70%;
+    padding-bottom: 80px;
+}
+
+.Contact-Banner .banner-1 h1{
+    color: white;
+    font-size: 50px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+}
+
+.Contact-Banner .banner-1 span{
+    background-color: #DC9F10;
+    width: 10px;
+    padding-bottom: 10px;
+    margin-right: 10px;
+}
+
+.Contact-Banner .banner-1 p{
+    color: white;
+    font-size: 16px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-top: 20px;
+    width: 550px;
+}
+
+.Contact-Banner .banner-1 button{
+    background-color: #DC9F10;
+    width: 30%;
+    padding: 7px;
+    color: white;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-family: bold;
+    border: none;
+    margin-top: 40px;
+    transition: 0.5s ease-in-out;
+}
+
+.Contact-Banner .banner-1 button:hover{
+  background-color: transparent;
+  border: 1px solid #DC9F10;
+}
+
+.Contact-Banner .banner-2{
+    background-color: #DC9F10;
+    width: 30%;
+    padding-bottom: 300px;
+    padding: 40px;
+}
+.Contact-Banner .banner-2 h2{
+    color: black;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+.Contact-Banner .banner-2 .Contact-Icon{
+  display: flex;
+  flex-direction:column;
+  gap: 30px;
+  color: rgb(207, 205, 205);
+}
+
+.Contact-Banner .banner-2 .Contact-Icon .icon{
+    font-size: 30px;
+    padding-right: 30px;
+    position: relative;
+    top: 10px;
+}
+
+.Contact-Icon .d-flex{
+    display: flex;
+}
+
+.Contact-Icon .d-flex div{
+  display: flex;
+  flex-direction: column;
+}
+.Contact-Icon .d-flex div p{
+ color: black;
+ font-weight: bold;
+ font-size: 18px;
+ font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.Contact-Icon .d-flex div span{
+    color: rgb(207, 205, 205);
+    width: 300px;
+    margin-top: -15px;
+}
+
+.Call-log{
+    width: 100%;
+    padding-top: 50px;
+    padding-bottom: 30px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.Call-log div h2{
+ color: #DC9F10;
+}
+
+.Call-log div p{
+    font-weight: bold;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 17px;
+}
+
+.Call-log div button{
+    width: 100%;
+    padding: 5px;
+    background-color: transparent;
+    border: 2px solid #DC9F10;
+    color: #DC9F10;
+    margin-right: 70px;
+}
+
+.Call-log div .icon{
+    margin-left: 15px;
+}
+
+.Contact-Form{
+    width: 100%;
+    height: inherit;
+    padding-bottom: 30px;
+    background-color: #e4e3e3;
+    padding: 60px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.Contact-Form h1{
+ font-size: 30px;
+ font-family: Verdana, Geneva, Tahoma, sans-serif;
+ font-weight: bold;
+ margin-bottom: 30px;
+}
+.Contact-Form .Form{
+    width: 50%;
+}
+.Contact-Form .Form label{
+    margin-bottom: -20px;
+    font-weight: bold;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 16px;
+}
+.Contact-Form .Form form{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.Contact-Form .Form input{
+    width:70%;
+    padding: 5px;
+    padding-left: 10px;
+    background-color: white;
+    border: none;
+    outline: none;
+    word-break: break-all;
+    white-space: nowrap;
+}
+
+.Contact-Form .Form .Message-input{
+    padding-bottom: 90px;
+    white-space:normal !important;
+}
+
+.Contact-Form .Form button{
+    width: 150px;
+    padding: 5px;
+    border: 2px solid #DC9F10;
+    color: #DC9F10;
+    font-weight: bold;
+}
+
+.Message-box{
+    background-color: white;
+    padding: 10px;
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+}
+
+.Message-box div{
+    width: 100%;
+    padding-bottom: 10px;
+    padding-left:20px ;
+    font-size: 17px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.Message-input{
+    word-break: break-all;
+    overflow: hidden;
+    height: 20vh;
+    white-space:wrap;
+    overflow-y: scroll;
+}
+
+.Message-box button{
+    width: 50%;
+    border: none;
+    padding: 7px;
+    color: white;
+    background-color: #DC9F10;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+    margin-top: 70px;
+}
+
+.Message-box .icon{
+    margin-left: 10px;
+}
+
+.Message-box #sent{
+    position: relative;
+    left: 20px;
+    top: 20px;
+    display: none;
+    text-align: center;
+}

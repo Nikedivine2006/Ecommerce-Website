@@ -1,0 +1,161 @@
+.Main-Shop{
+    background-color: #F1F1F2;
+    height: inherit;
+    padding-bottom: 100px;
+}
+
+.Shop-Navbar{
+    margin-top: 70px ;
+    background-color: white;
+    padding: 20px;
+    box-shadow: 0px 2px 2px 2px rgb(223, 220, 220);
+}
+
+.Shop-Navbar h1{
+    font-size: 25px;
+    font-weight: bold;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+}
+
+.Shop-Navbar span{
+    color: orange;
+}
+.Shop-Product{
+    height: inherit;
+    width: 100%;
+    padding: 20px;
+    padding-bottom: 50px;
+    box-shadow: 0px 2px 2px 2px rgb(223, 220, 220);
+    background-color: white;
+    margin-top: 30px;
+
+}
+
+.Shop-Product nav{
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid rgb(223, 220, 220);
+    padding-bottom: 20px;
+    margin-bottom: 20px;
+}
+
+.Shop-Product nav h3{
+    font-size: 18px;
+    color: rgb(105, 104, 104);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.Shop-Product nav div{
+    display: flex;
+    gap: 20px;
+}
+
+#Shop-Icons1{
+    color: orange;
+}
+
+.Shop-Product .Product{
+    width: 20%;
+    height: inherit;
+    padding-bottom: 20px;
+    padding: 20px;
+    position: relative;
+}
+
+.Shop-Product .Product img{
+    min-width: 100%;
+    height: 30vh;
+}
+
+.Shop-Product .ProductDescription{
+    display: flex;
+    position: relative;
+    overflow: hidden;
+    white-space: nowrap;
+}
+
+.Shop-Product .ProductDescription .RatingSection{
+    margin-top: 5px;
+    display: flex;
+    color: orange;
+    position: absolute;
+    right: 0;
+}
+
+.Shop-Product .ProductDescription h3{
+    font-size: 17px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.Shop-Product .ProductPrice h4{
+ font-size: 19px;
+ color: #C02828;
+}
+
+.Shop-Product button{
+    background-color: #E6A611;
+    border: none;
+    width: 100%;
+    padding: 10px;
+    font-size: bold;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: white;
+    border-radius: 5px;
+    display: none;
+}
+
+.Shop-Product .Product:hover{
+    box-shadow: 2px 2px 2px 2px rgb(223, 220, 220);   
+}
+
+.Shop-Product .Product:hover button{
+  display: block;   
+}
+
+.Shop-Product .d-flex{
+    flex-wrap: wrap;
+}
+
+.notification-toast{
+    background-color: green;
+    width: 30%;
+    padding: 15px;
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 19px;
+    display: flex;
+    gap: 30px;
+    position: fixed;
+    top: 20px;
+   visibility: hidden;
+}
+
+.notification-toast .icon{
+    position: relative;
+    top: 5px;
+    font-size: 20px;
+}
+
+.notification-toast .icon1{
+    color: white;
+}
+
+.notification-toast span{
+    color: white;
+    font-size: 14px;
+    background-color: #E6A611;
+    padding-bottom: 10px;
+    height: 20px;
+    padding: 5px;
+    width: 20px;
+    border-radius: 20px;
+    position: absolute;
+    right: 90px;
+    bottom: 30px;
+    font-size: 12px;
+    text-align: center;
+}
+
+.Product a{
+    color: black;
+}

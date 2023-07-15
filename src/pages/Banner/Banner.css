@@ -1,0 +1,262 @@
+.Banner {
+  width: 100%;
+  padding-bottom: 100px;
+  background-color: navy;
+  margin-top: 30px;
+  position: relative;
+}
+
+.Banner .d-flex {
+  flex-direction: row-reverse !important;
+  display: flex !important;
+}
+
+.Carousel-Info {
+  text-align: left !important;
+  position: absolute;
+  bottom: 80px !important;
+}
+
+.Carousel-Info h3 {
+  font-weight: bold;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 35px;
+  width: 430px;
+  margin-bottom: 10px;
+}
+
+.Carousel-Info p {
+  font-size: 17px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  margin-bottom: 30px;
+}
+
+.Carousel-Info button {
+  background-color: black;
+  color: white;
+  padding: 8px;
+  border: none;
+  border-radius: 20px;
+  font-weight: bold;
+  font-size: 15px;
+  width: 130px;
+}
+
+.BannerSlider img {
+  width: 30% !important;
+  position: relative;
+  right: 140px;
+  top: 50px;
+}
+
+
+.Banner1 {
+    width: 100%;
+    padding-bottom: 100px;
+    background-color: black;
+    margin-top: 30px;
+    position: relative;
+  }
+
+  .Banner1 .d-flex {
+    flex-direction: row-reverse !important;
+    display: flex !important;
+  }
+  
+  .Banner1 button{
+    background-color: white;
+    color: black;
+  }
+
+  .Banner2 {
+    width: 100%;
+    padding-bottom: 100px;
+    background-color: gray;
+    margin-top: 30px;
+    position: relative;
+  }
+
+  .Banner2 img{
+    width: 32%;
+  }
+  .Banner2 .d-flex {
+    flex-direction: row-reverse !important;
+    display: flex !important;
+  }
+  
+  .Banner2 button{
+    background-color: black;
+    color: white;
+  }
+.ImgSlider{
+    width: 100%;
+    padding-bottom: 160px;
+    gap: 30px;
+    white-space: nowrap;
+    overflow-y: hidden;
+    overflow-x: scroll;
+    margin-top: 30px;
+    position: relative;
+}
+.ImgSlider .d-flex{
+  gap: 20px;
+}
+.ImgSlider h2{
+  text-align: center;
+  margin-bottom: 40px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.ImgSlider .border{
+ width: 100%;
+ display: flex;
+ justify-content: center;
+}
+
+.ImgSlider .border div{
+  width: 170px;
+  padding-bottom: 3px;
+  background-color: #ecaa11;
+  position: absolute;
+  top: 50px;
+  border-radius: 10px;
+}
+
+.ImgSlider::-webkit-scrollbar{
+    display: none;
+}
+  .slideImg{
+    background-color: #a1a5a4;
+    min-width: 13%;
+    padding-bottom: 120px;
+    position: relative;
+  }
+
+  .SlideInfo{
+    background-color: white;
+    color: black;
+    text-align: center;
+    font-weight: bold;
+    font-size: 17px;
+    padding-top: 10px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    width: 100%;
+    padding-bottom: 20px;
+    position: absolute;
+    top: 120px;
+  }
+
+  .slideImg:hover .SlideInfo{
+    box-shadow: 2px 2px 2px 2px gray;
+  }
+
+  .slideImg:hover{
+    box-shadow: 2px 2px 2px 2px gray;
+  }
+  .Row1{
+    background-image: url(./banner/row1.png);
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+  }
+
+  .Row2{
+    background-image: url(./banner/row3.jpg);
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+  }
+  .Row3{
+    background-image: url(./banner/row4.png);
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+  }
+
+  .Row4{
+    background-image: url(./banner/row6.png);
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+  }
+
+  .Row5{
+    background-image: url(./banner/row7.png);
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+  }
+
+  .Row6{
+    background-image: url(./banner/row10.jpg);
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+  }
+
+  .Row7{
+    background-image: url(./banner/row11.png);
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+  }
+
+  .Row8{
+    background-image: url(./banner/row12.png);
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+  }
+
+  
+  .Row9{
+    background-image: url(./banner/row8.png);
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+  }
+
+
+
+  .Categories{
+    width: 100%;
+    padding-bottom: 40px;
+    margin-top: 20px;
+    display: flex;
+  }
+
+  .Categories .feat{
+    border: 1px solid gray;
+    width: 40%;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    height: 80px;
+    /* padding-top: 30px; */
+  }
+
+  .featInfo{
+    margin-top: 20px;
+  }
+
+  .Categories .feat img{
+    width: 20%;
+    height: 40px;
+   margin-right: 10px;
+   margin-top: 20px;
+  }
+
+  .Categories .feat h2{
+    font-size: 13px;
+    font-weight: bold;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+  }
+
+  .Categories .feat p{
+    font-size: 12px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: gray;
+    margin-top:-5px ;
+  }
+
+
+  
